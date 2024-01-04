@@ -1,0 +1,36 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1440px;
+  height: 56px;
+}
+.nav-list {
+  display: flex;
+  list-style-type: none;
+}
+.nav {
+  margin-right: 20px;
+  width: 52px;
+  height: 28px;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  position: relative;
+  z-index: 20;
+}
+.name {
+  width: 130px;
+  height: 32px;
+  top: 12px;
+  left: 120px;
+  font-family: Comfortaa;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}

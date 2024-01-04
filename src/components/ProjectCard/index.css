@@ -1,0 +1,59 @@
+.project-card-container {
+  width: Fixed (992px);
+  height: Fixed (524px);
+  border-radius: 24px;
+  box-shadow: 0px 6px 64px 0px #7090b01a;
+  display: flex;
+}
+.pp-card-content-container {
+  width: 496px;
+  height: 524px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 40px;
+}
+.pp-card {
+  width: Fixed (406.68px);
+  height: Hug (232px);
+  top: 146.5px;
+  left: 50.44px;
+  gap: 24px;
+}
+.pp-card-title {
+  width: 406.68px;
+  height: 60px;
+  font-family: Playfair Display;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.pp-card-deescription {
+  width: 406.68px;
+  height: 81px;
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.pp-button {
+  width: Hug (150px);
+  height: Hug (43px);
+  padding: 10px, 24px;
+  border-radius: 24px;
+  border: 1px solid #25282b;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.pp-card-image {
+  width: 496px;
+  height: 526px;
+}
