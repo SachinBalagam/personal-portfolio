@@ -1,27 +1,24 @@
-.project-page-container {
-  width: Hug (992px);
-  height: Hug (1, 892px);
-  top: 1634px;
-  left: 226px;
-  gap: 80px;
+.pp-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding: 0 50px;
+  background-color: aliceblue;
+}
+.pp-header {
+  display: flex;
+  flex-direction: column;
 }
 .pp-heading {
-  width: Hug (181px);
-  height: Hug (80px);
-  gap: 4px;
   font-family: Playfair Display;
   font-size: 48px;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 0;
+  margin-bottom: 5px;
 }
-.rectangle {
-  width: 100px;
-  /* height: 4px; */
-  border-radius: 2px;
-  margin-top: -56px;
+.underline {
+  align-self: center;
+  margin-top: 0;
+}
+.pp-list {
+  margin-top: 50px;
 }

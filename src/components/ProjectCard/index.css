@@ -1,63 +1,68 @@
-.project-card-container {
-  width: Fixed (992px);
-  height: Fixed (300px);
-  border-radius: 50px;
-  box-shadow: 0px 6px 64px 0px #7090b01a;
+.pc-container {
   display: flex;
-  margin-bottom: 100px;
+  justify-content: center;
 }
-.pp-card-content-container {
-  width: 496px;
-  height: 524px;
+.pc-card {
+  width: 600px;
+  border-radius: 15px;
+  box-shadow: 0px 6px 64px 0px #7090b01a;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pc-content-container {
+  width: 100%;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 40px;
+  order: 1;
 }
-.pp-card {
-  width: Fixed (406.68px);
-  height: Hug (232px);
-  top: 146.5px;
-  left: 50.44px;
-  gap: 24px;
+.pc-img-contianer {
+  width: 100%;
+  order: 0;
 }
-.pp-card-title {
-  width: 406.68px;
-  height: 60px;
+.pc-title {
   font-family: Playfair Display;
   font-size: 40px;
   font-weight: 700;
-  line-height: 60px;
-  letter-spacing: 0em;
-  text-align: left;
+  margin: 0;
 }
-.pp-card-deescription {
-  width: 406.68px;
-  height: 81px;
+.pc-description {
   font-family: Nunito;
   font-size: 18px;
   font-weight: 400;
-  line-height: 27px;
-  letter-spacing: 0em;
-  text-align: left;
 }
-.pp-button {
-  width: Hug (150px);
-  height: Hug (43px);
-  padding: 10px, 24px;
-  border-radius: 24px;
-  border: 1px solid #25282b;
+.pc-button {
+  border-radius: 5px;
+  border: 1px solid #4a4e53;
   font-family: Roboto;
   font-size: 18px;
   font-weight: 500;
-  line-height: 27px;
-  letter-spacing: 0em;
-  text-align: left;
   cursor: pointer;
+  padding: 5px 20px;
 }
-.pp-card-image {
-  width: 496px;
-  height: 526px;
-  border-top-right-radius: 50px;
-  border-bottom-right-radius: 50px;
+.pc-button:hover {
+  background-color: #4a4e53;
+  color: #ffffff;
+}
+.pc-img {
+  width: 100%;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+@media screen and (min-width: 768px) {
+  .pc-card {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .pc-img-contianer {
+    order: 1;
+    width: 50%;
+  }
+  .pc-content-container {
+    width: 50%;
+  }
 }

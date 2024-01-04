@@ -9,18 +9,19 @@ const ProjectCard = (props) => {
     : "https://res.cloudinary.com/sachinbalagam/image/upload/v1704395148/waynrceb32lsabctcank.png";
 
   return (
-    <div className="project-card-container">
-      <div className="pp-card-content-container">
-        <div className="pp-card">
-          <h1 className="pp-card-title">{title}</h1>
-          <p className="pp-card-deescription">{description}</p>
+    <div className="pc-container">
+      <div className="pc-card">
+        <div className="pc-content-container">
+          <h1 className="pc-title">{title}</h1>
+          <p className="pc-description">{description}</p>
           <a href={link} target="_blank" rel="noreferrer">
-            <button className="pp-button">View Project</button>
+            <button className="pc-button">View Project</button>
           </a>
         </div>
-      </div>
-      <div className="pp-card-image-contianer">
-        <img src={image} alt={title} className="pp-card-image" />
+
+        <div className="pc-img-contianer">
+          <img src={image} alt={title} className="pc-img" />
+        </div>
       </div>
     </div>
   );

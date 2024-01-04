@@ -1,9 +1,6 @@
 .body-container {
-  width: Hug (992px);
-  height: Hug (1, 892px);
-  top: 1634px;
-  left: 226px;
-  gap: 80px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  padding: 0 50px;
+  background-color: aliceblue;
 }

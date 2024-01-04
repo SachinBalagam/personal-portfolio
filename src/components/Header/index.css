@@ -2,39 +2,22 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 1440px;
-  height: 56px;
 }
 .nav-list {
   display: flex;
   list-style-type: none;
 }
 .nav {
-  margin-right: 20px;
-  width: 52px;
-  height: 28px;
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 28px;
-  letter-spacing: 0px;
-  text-align: left;
   position: relative;
   z-index: 20;
   text-decoration: none;
   color: black;
+  margin: 0 10px;
 }
-.name {
-  width: 230px;
-  height: 32px;
-  top: 12px;
-  left: 120px;
+.header-logo-name {
   font-family: Comfortaa;
   font-size: 18px;
   font-weight: 700;
-  line-height: 32px;
-  letter-spacing: 0px;
-  text-align: left;
   text-decoration: none;
   color: black;
 }

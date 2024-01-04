@@ -1,6 +1,16 @@
 .contact-container {
   display: flex;
-  min-height: 80vh;
+  flex-direction: column;
+  padding: 0 50px;
+  background-color: aliceblue;
+}
+.contact-card {
+  min-height: 65vh;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.contact-heading {
+  text-align: center;
 }

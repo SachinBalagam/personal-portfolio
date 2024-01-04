@@ -1,7 +1,6 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Body from "../Body/Body";
 import Projects from "../Projects/Projects";
-import About from "../About/About";
 import Contact from "../Contact/Contact";
 
 const Root = () => {
@@ -13,10 +12,6 @@ const Root = () => {
     {
       path: "/projects",
       element: <Projects />,
-    },
-    {
-      path: "/about",
-      element: <About />,
     },
     {
       path: "/contact",
