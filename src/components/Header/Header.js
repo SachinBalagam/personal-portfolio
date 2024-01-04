@@ -1,14 +1,26 @@
 import "./index.css";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <div className="header-container">
-      <h1 className="name">Madelyn Torff</h1>
+      <Link to="/" className="name">
+        <h1>Madelyn Torff</h1>
+      </Link>
+
       <nav>
         <ul className="nav-list">
-          <li className="nav">About</li>
-          <li className="nav">Projects</li>
-          <li className="nav">Contacts</li>
+          <Link to="/about" className="nav">
+            <li>About</li>
+          </Link>
+
+          <Link to="/projects" className="nav">
+            <li>Projects</li>
+          </Link>
+
+          <Link to="/contact" className="nav">
+            <li>Contacts</li>
+          </Link>
         </ul>
       </nav>
     </div>

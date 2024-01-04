@@ -21,9 +21,11 @@
   text-align: left;
   position: relative;
   z-index: 20;
+  text-decoration: none;
+  color: black;
 }
 .name {
-  width: 130px;
+  width: 230px;
   height: 32px;
   top: 12px;
   left: 120px;
@@ -33,4 +35,6 @@
   line-height: 32px;
   letter-spacing: 0px;
   text-align: left;
+  text-decoration: none;
+  color: black;
 }

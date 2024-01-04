@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./index.css";
 
 const Main = () => {
@@ -12,8 +13,16 @@ const Main = () => {
             career. You can add more information on the about page.
           </p>
           <div className="buttons-contianer">
-            <button className="project-button">Projects</button>
-            <button className="LinkedIn-button">LinkedIn</button>
+            <Link to="/projects">
+              <button className="project-button">Projects</button>
+            </Link>
+            <a
+              href="https://www.linkedin.com/in/sachinbalagam/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className="LinkedIn-button">LinkedIn</button>
+            </a>
           </div>
         </div>
       </div>

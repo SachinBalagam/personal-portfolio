@@ -55,11 +55,13 @@
   background: #fdc435;
   margin-right: 10px;
   padding: 10px 25px;
+  cursor: pointer;
 }
 .LinkedIn-button {
   padding: 10px 25px;
   border-radius: 8px;
   border: 2px solid #25282b;
+  cursor: pointer;
 }
 .images-container {
   /* display: flex; */

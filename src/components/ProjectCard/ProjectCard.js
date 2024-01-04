@@ -1,24 +1,26 @@
 import "./index.css";
 
-const ProjectCard = () => {
+const ProjectCard = (props) => {
+  const { data } = props;
+  const { title, description, imageUrl, link } = data;
+
+  const image = imageUrl
+    ? imageUrl
+    : "https://res.cloudinary.com/sachinbalagam/image/upload/v1704395148/waynrceb32lsabctcank.png";
+
   return (
     <div className="project-card-container">
       <div className="pp-card-content-container">
         <div className="pp-card">
-          <h1 className="pp-card-title">Hello</h1>
-          <p className="pp-card-deescription">
-            I created this personal project in order to show how to create an
-            interface in Figma using a portfolio as an example.
-          </p>
-          <button className="pp-button">View Project</button>
+          <h1 className="pp-card-title">{title}</h1>
+          <p className="pp-card-deescription">{description}</p>
+          <a href={link} target="_blank" rel="noreferrer">
+            <button className="pp-button">View Project</button>
+          </a>
         </div>
       </div>
       <div className="pp-card-image-contianer">
-        <img
-          src="https://res.cloudinary.com/sachinbalagam/image/upload/v1704392304/dkgb0inwabtecu4vkvnw.png"
-          alt="project-1"
-          className="pp-card-image"
-        />
+        <img src={image} alt={title} className="pp-card-image" />
       </div>
     </div>
   );

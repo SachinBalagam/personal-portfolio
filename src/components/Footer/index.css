@@ -14,8 +14,6 @@
   font-family: Playfair Display;
   font-size: 48px;
   font-weight: 700;
-  line-height: 72px;
-  letter-spacing: 0em;
   text-align: center;
 }
 .form-container {
@@ -55,7 +53,7 @@
   width: 100px;
   height: 4px;
   border-radius: 2px;
-  margin-top: -30px;
+  margin-top: 20px;
   margin-bottom: 30px;
 }
 .submit-button {
@@ -72,4 +70,7 @@
   width: 1436px;
   height: 111.89px;
   top: 644px;
+}
+.error-message {
+  color: red;
 }
